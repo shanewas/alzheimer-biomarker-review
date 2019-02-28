@@ -34,10 +34,10 @@ papers and visualize trends.
 
 ## Figures
 
-- `figures/biomarker_performance.png` — Sensitivity vs specificity scatter by biomarker
-- `figures/yearly_trend.png` — Studies published per year
-- `figures/study_types.png` — Distribution of study designs
-- `figures/sample_size_dist.png` — Sample size histogram
+![Biomarker Performance](figures/biomarker_performance.png)
+![Yearly Trend](figures/yearly_trend.png)
+![Study Types](figures/study_types.png)
+![Sample Size Distribution](figures/sample_size_dist.png)
 
 ## Setup
 ```bash
