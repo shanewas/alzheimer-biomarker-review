@@ -16,7 +16,7 @@ def plot_yearly_trend(df):
     plt.fill_between(yearly.index, yearly.values, alpha=0.2, color='#3498db')
     plt.xlabel('Year')
     plt.ylabel('Number of Studies')
-    plt.title('Alzheimer Biomarker Research ? Studies per Year')
+    plt.title('Alzheimer Biomarker Research — Studies per Year')
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.savefig(os.path.join(FIGURES_PATH, 'yearly_trend.png'), dpi=150)
